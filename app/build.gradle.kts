@@ -42,6 +42,14 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+
+    implementation(libs.koin.core)
+    implementation(libs.koin.android)
+
+    implementation(project(":connector"))
+    implementation(project(":auth:auth-api"))
+    implementation(project(":gallery:api"))
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

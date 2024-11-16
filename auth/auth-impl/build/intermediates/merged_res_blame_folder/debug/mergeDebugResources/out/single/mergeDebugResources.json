@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "/Users/arammehrabyan/.gradle/daemon/8.9/com.aram.mehrabyan.authimpl.auth-impl-debug-38:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/arammehrabyan/.gradle/daemon/8.9/com.aram.mehrabyan.authimpl.auth-impl-main-40:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/arammehrabyan/.gradle/daemon/8.9/com.aram.mehrabyan.authimpl.auth-impl-debug-38:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/arammehrabyan/.gradle/daemon/8.9/com.aram.mehrabyan.authimpl.auth-impl-main-40:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/arammehrabyan/.gradle/daemon/8.9/com.aram.mehrabyan.authimpl.auth-impl-debug-38:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/arammehrabyan/.gradle/daemon/8.9/com.aram.mehrabyan.authimpl.auth-impl-main-40:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/arammehrabyan/.gradle/daemon/8.9/com.aram.mehrabyan.authimpl.auth-impl-debug-38:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/arammehrabyan/.gradle/daemon/8.9/com.aram.mehrabyan.authimpl.auth-impl-main-40:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/arammehrabyan/.gradle/daemon/8.9/com.aram.mehrabyan.authimpl.auth-impl-debug-38:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/arammehrabyan/.gradle/daemon/8.9/com.aram.mehrabyan.authimpl.auth-impl-main-40:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/arammehrabyan/.gradle/daemon/8.9/com.aram.mehrabyan.authimpl.auth-impl-debug-38:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/arammehrabyan/.gradle/daemon/8.9/com.aram.mehrabyan.authimpl.auth-impl-main-40:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/arammehrabyan/.gradle/daemon/8.9/com.aram.mehrabyan.authimpl.auth-impl-debug-38:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/arammehrabyan/.gradle/daemon/8.9/com.aram.mehrabyan.authimpl.auth-impl-main-40:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/arammehrabyan/.gradle/daemon/8.9/com.aram.mehrabyan.authimpl.auth-impl-debug-38:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/arammehrabyan/.gradle/daemon/8.9/com.aram.mehrabyan.authimpl.auth-impl-main-40:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/arammehrabyan/.gradle/daemon/8.9/com.aram.mehrabyan.authimpl.auth-impl-debug-38:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/arammehrabyan/.gradle/daemon/8.9/com.aram.mehrabyan.authimpl.auth-impl-main-40:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/arammehrabyan/.gradle/daemon/8.9/com.aram.mehrabyan.authimpl.auth-impl-debug-38:/layout_activity_authentication.xml.flat",
+        "source": "/Users/arammehrabyan/.gradle/daemon/8.9/com.aram.mehrabyan.authimpl.auth-impl-main-40:/layout/activity_authentication.xml"
+    },
+    {
+        "merged": "/Users/arammehrabyan/.gradle/daemon/8.9/com.aram.mehrabyan.authimpl.auth-impl-debug-38:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/arammehrabyan/.gradle/daemon/8.9/com.aram.mehrabyan.authimpl.auth-impl-main-40:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/arammehrabyan/.gradle/daemon/8.9/com.aram.mehrabyan.authimpl.auth-impl-debug-38:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/arammehrabyan/.gradle/daemon/8.9/com.aram.mehrabyan.authimpl.auth-impl-main-40:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/arammehrabyan/.gradle/daemon/8.9/com.aram.mehrabyan.authimpl.auth-impl-debug-38:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/arammehrabyan/.gradle/daemon/8.9/com.aram.mehrabyan.authimpl.auth-impl-main-40:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.aram.mehrabyan.authimpl.auth-impl-debug-38:/layout_activity_authentication.xml.flat",
+        "source": "com.aram.mehrabyan.authimpl.auth-impl-main-40:/layout/activity_authentication.xml"
+    },
+    {
+        "merged": "/Users/arammehrabyan/.gradle/daemon/8.9/com.aram.mehrabyan.authimpl.auth-impl-debug-38:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/arammehrabyan/.gradle/daemon/8.9/com.aram.mehrabyan.authimpl.auth-impl-main-40:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/arammehrabyan/.gradle/daemon/8.9/com.aram.mehrabyan.authimpl.auth-impl-debug-38:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/arammehrabyan/.gradle/daemon/8.9/com.aram.mehrabyan.authimpl.auth-impl-main-40:/mipmap-xhdpi/ic_launcher.webp"
+    }
+]

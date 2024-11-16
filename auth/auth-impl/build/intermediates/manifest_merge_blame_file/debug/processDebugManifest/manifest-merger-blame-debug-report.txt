@@ -1,0 +1,14 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.aram.mehrabyan.authimpl" >
+4
+5    <uses-sdk android:minSdkVersion="1" />
+6
+7    <application>
+7-->/Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/auth/auth-impl/src/main/AndroidManifest.xml:3:5-5:19
+8        <activity android:name="com.aram.mehrabyan.authimpl.AuthenticationActivity" />
+8-->/Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/auth/auth-impl/src/main/AndroidManifest.xml:4:9-86
+8-->/Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/auth/auth-impl/src/main/AndroidManifest.xml:4:19-84
+9    </application>
+10
+11</manifest>

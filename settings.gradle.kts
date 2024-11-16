@@ -21,4 +21,9 @@ dependencyResolutionManagement {
 
 rootProject.name = "PixabayGallery"
 include(":app")
- 
+include(":connector")
+include(":network")
+include(":auth:auth-api")
+include(":auth:auth-impl")
+include(":gallery:impl")
+include(":gallery:api")

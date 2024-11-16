@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.aram.mehrabyan.connector-mergeDebugResources-36:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/Users/arammehrabyan/.gradle/caches/8.9/transforms/dd6d786feeb8c16829af78724f1078d5/transformed/appcompat-1.7.0/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}
