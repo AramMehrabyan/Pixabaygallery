@@ -9,7 +9,7 @@ internal data class PhotosState(
     }
 }
 
-data class PhotoItemUiModel(
+internal data class PhotoItemUiModel(
     val id: Long,
     val previewURL: String,
     val userName: String

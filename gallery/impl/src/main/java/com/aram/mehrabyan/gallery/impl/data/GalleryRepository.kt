@@ -6,4 +6,6 @@ import com.aram.mehrabyan.utils.model.ActionResult
 internal interface GalleryRepository {
 
     suspend fun getPhotos(page: Int): ActionResult<GalleryContentApiResult>
+
+    suspend fun getPhotoById(id: Long): ActionResult<GalleryContentApiResult>
 }

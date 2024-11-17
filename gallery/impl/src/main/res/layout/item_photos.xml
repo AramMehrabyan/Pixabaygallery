@@ -26,6 +26,7 @@
         android:maxLines="1"
         android:textColor="@color/title_color"
         android:textSize="24sp"
+        app:fontFamily="sans-serif-condensed-medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@id/thumbnail"
         app:layout_constraintStart_toStartOf="@id/thumbnail"

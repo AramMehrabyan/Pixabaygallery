@@ -1,19 +1,21 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/gallery/impl/src/main/AndroidManifest.xml:2:1-11:12
-INJECTED from /Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/gallery/impl/src/main/AndroidManifest.xml:2:1-11:12
+ADDED from /Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/gallery/impl/src/main/AndroidManifest.xml:2:1-12:12
+INJECTED from /Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/gallery/impl/src/main/AndroidManifest.xml:2:1-12:12
 	package
 		INJECTED from /Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/gallery/impl/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/gallery/impl/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/gallery/impl/src/main/AndroidManifest.xml:4:5-9:19
+ADDED from /Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/gallery/impl/src/main/AndroidManifest.xml:4:5-10:19
 activity#com.aram.mehrabyan.gallery.impl.GalleryActivity
-ADDED from /Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/gallery/impl/src/main/AndroidManifest.xml:5:9-8:66
+ADDED from /Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/gallery/impl/src/main/AndroidManifest.xml:5:9-9:66
+	android:screenOrientation
+		ADDED from /Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/gallery/impl/src/main/AndroidManifest.xml:8:13-49
 	android:exported
 		ADDED from /Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/gallery/impl/src/main/AndroidManifest.xml:7:13-37
 	android:theme
-		ADDED from /Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/gallery/impl/src/main/AndroidManifest.xml:8:13-63
+		ADDED from /Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/gallery/impl/src/main/AndroidManifest.xml:9:13-63
 	android:name
 		ADDED from /Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/gallery/impl/src/main/AndroidManifest.xml:6:13-44
 uses-sdk

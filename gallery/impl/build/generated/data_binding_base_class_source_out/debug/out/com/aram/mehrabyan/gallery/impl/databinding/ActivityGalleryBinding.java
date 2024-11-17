@@ -4,9 +4,9 @@ package com.aram.mehrabyan.gallery.impl.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.fragment.app.FragmentContainerView;
 import androidx.viewbinding.ViewBinding;
 import com.aram.mehrabyan.gallery.impl.R;
 import java.lang.NullPointerException;
@@ -14,20 +14,20 @@ import java.lang.Override;
 
 public final class ActivityGalleryBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final FragmentContainerView rootView;
 
   @NonNull
-  public final FrameLayout mainContainer;
+  public final FragmentContainerView navHostFragment;
 
-  private ActivityGalleryBinding(@NonNull FrameLayout rootView,
-      @NonNull FrameLayout mainContainer) {
+  private ActivityGalleryBinding(@NonNull FragmentContainerView rootView,
+      @NonNull FragmentContainerView navHostFragment) {
     this.rootView = rootView;
-    this.mainContainer = mainContainer;
+    this.navHostFragment = navHostFragment;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public FragmentContainerView getRoot() {
     return rootView;
   }
 
@@ -52,8 +52,8 @@ public final class ActivityGalleryBinding implements ViewBinding {
       throw new NullPointerException("rootView");
     }
 
-    FrameLayout mainContainer = (FrameLayout) rootView;
+    FragmentContainerView navHostFragment = (FragmentContainerView) rootView;
 
-    return new ActivityGalleryBinding((FrameLayout) rootView, mainContainer);
+    return new ActivityGalleryBinding((FragmentContainerView) rootView, navHostFragment);
   }
 }

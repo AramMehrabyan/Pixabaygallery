@@ -5,15 +5,17 @@
 5    <uses-sdk android:minSdkVersion="24" />
 6
 7    <application>
-7-->/Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/gallery/impl/src/main/AndroidManifest.xml:4:5-9:19
+7-->/Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/gallery/impl/src/main/AndroidManifest.xml:4:5-10:19
 8        <activity
-8-->/Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/gallery/impl/src/main/AndroidManifest.xml:5:9-8:66
+8-->/Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/gallery/impl/src/main/AndroidManifest.xml:5:9-9:66
 9            android:name="com.aram.mehrabyan.gallery.impl.GalleryActivity"
 9-->/Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/gallery/impl/src/main/AndroidManifest.xml:6:13-44
 10            android:exported="false"
 10-->/Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/gallery/impl/src/main/AndroidManifest.xml:7:13-37
-11            android:theme="@style/Theme.AppCompat.NoActionBar" />
-11-->/Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/gallery/impl/src/main/AndroidManifest.xml:8:13-63
-12    </application>
-13
-14</manifest>
+11            android:screenOrientation="portrait"
+11-->/Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/gallery/impl/src/main/AndroidManifest.xml:8:13-49
+12            android:theme="@style/Theme.AppCompat.NoActionBar" />
+12-->/Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/gallery/impl/src/main/AndroidManifest.xml:9:13-63
+13    </application>
+14
+15</manifest>

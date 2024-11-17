@@ -18,11 +18,12 @@ import kotlinx.coroutines.flow.onEach
 internal class PhotosUiBinder(
     private val binding: FragmentPhotosBinding,
     private val viewLifecycleOwner: LifecycleOwner,
+    onItemClick: (id: Long) -> Unit,
     loadMore: (() -> Unit)?
 ) {
 
     private val photosAdapter: PhotosAdapter by lazy(LazyThreadSafetyMode.NONE) {
-        PhotosAdapter(loadMore = loadMore)
+        PhotosAdapter(onItemClick = onItemClick, loadMore = loadMore)
     }
 
     init {

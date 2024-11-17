@@ -9,6 +9,7 @@ import com.aram.mehrabyan.utils.imaheloader.load
 import com.aram.mehrabyan.utils.ui.PagingAdapter
 
 internal class PhotosAdapter(
+    private val onItemClick: (id: Long) -> Unit,
     loadMore: (() -> Unit)?
 ) : PagingAdapter<PhotoItemUiModel, PhotosAdapter.PhotosViewHolder>(
     loadMore = loadMore,
@@ -21,7 +22,9 @@ internal class PhotosAdapter(
             parent,
             false
         )
-        return PhotosViewHolder(binding = binding)
+        return PhotosViewHolder(binding = binding) { position ->
+            onItemClick(getItem(position).id)
+        }
     }
 
     override fun onBindViewHolder(holder: PhotosViewHolder, position: Int) {
@@ -30,12 +33,23 @@ internal class PhotosAdapter(
     }
 
     class PhotosViewHolder(
-        private val binding: ItemPhotosBinding
+        private val binding: ItemPhotosBinding,
+        onItemClick: (position: Int) -> Unit
     ) : RecyclerView.ViewHolder(binding.root) {
+
+        init {
+            setupClickListeners(onItemClick)
+        }
 
         fun bind(item: PhotoItemUiModel) {
             binding.tvUserName.text = item.userName
             binding.thumbnail.load(item.previewURL)
+        }
+
+        private fun setupClickListeners(onItemClick: (position: Int) -> Unit) {
+            binding.root.setOnClickListener {
+                onItemClick(adapterPosition)
+            }
         }
     }
 }

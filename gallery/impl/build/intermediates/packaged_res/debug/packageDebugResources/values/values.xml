@@ -12,7 +12,16 @@
     <color name="teal_700">#FF018786</color>
     <color name="title_color">#000000</color>
     <color name="white">#FFFFFFFF</color>
+    <string name="comment_count_title">Comments count:</string>
+    <string name="downloads_count_title">Downloads count:</string>
     <string name="error_message">Something went wrong!</string>
+    <string name="favorites_count_title">Favorites count:</string>
+    <string name="image_size_title">Image size:</string>
+    <string name="image_tags_title">Image tags:</string>
+    <string name="image_type_title">Image type:</string>
+    <string name="likes_count_title">Likes count:</string>
+    <string name="user_name_title">User name:</string>
+    <string name="views_count_title">Views count:</string>
     <style name="Theme.PixabayGallery" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>

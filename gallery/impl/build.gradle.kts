@@ -25,10 +25,11 @@ android {
 }
 
 dependencies {
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
+    implementation(libs.androidx.activity)
+    implementation(libs.androidx.constraintlayout)
 
     implementation(libs.koin.core)
     implementation(libs.koin.android)
@@ -36,15 +37,9 @@ dependencies {
     implementation(libs.retrofit.converter.gson)
     implementation(libs.kotlin.coroutines.core)
     implementation(libs.kotlin.coroutines.android)
+    implementation(libs.androidx.navigation.fragment.ktx)
 
     implementation(project(":gallery:api"))
     implementation(project(":network"))
     implementation(project(":utils"))
-
-    implementation(libs.androidx.activity)
-    implementation(libs.androidx.constraintlayout)
-
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
 }

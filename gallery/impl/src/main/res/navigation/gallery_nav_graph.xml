@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gallery_nav_graph"
+    app:startDestination="@id/photo_list">
+
+    <fragment
+        android:id="@+id/photo_list"
+        android:name="com.aram.mehrabyan.gallery.impl.presentation.photos.PhotosFragment"
+        tools:layout="@layout/fragment_photos">
+
+        <action
+            android:id="@+id/open_details"
+            app:destination="@id/photo_details" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/photo_details"
+        android:name="com.aram.mehrabyan.gallery.impl.presentation.photodetail.PhotoDetailFragment"
+        tools:layout="@layout/fragment_photo_detail" />
+
+</navigation>

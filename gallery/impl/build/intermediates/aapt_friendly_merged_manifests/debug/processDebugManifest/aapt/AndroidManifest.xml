@@ -8,6 +8,7 @@
         <activity
             android:name="com.aram.mehrabyan.gallery.impl.GalleryActivity"
             android:exported="false"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
     </application>
 

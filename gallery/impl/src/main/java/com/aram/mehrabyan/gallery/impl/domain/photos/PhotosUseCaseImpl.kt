@@ -1,7 +1,7 @@
 package com.aram.mehrabyan.gallery.impl.domain.photos
 
 import com.aram.mehrabyan.gallery.impl.data.GalleryRepository
-import com.aram.mehrabyan.gallery.impl.data.entity.GalleryItemApiResult
+import com.aram.mehrabyan.gallery.impl.data.entity.GalleryItemDetailApiResult
 import com.aram.mehrabyan.gallery.impl.presentation.photos.PhotoItemUiModel
 import com.aram.mehrabyan.gallery.impl.presentation.photos.PhotosState
 import com.aram.mehrabyan.utils.mapper.Mapper
@@ -9,7 +9,7 @@ import com.aram.mehrabyan.utils.model.ActionResult
 
 internal class PhotosUseCaseImpl(
     private val repository: GalleryRepository,
-    private val mapper: Mapper<GalleryItemApiResult, PhotoItemUiModel>
+    private val mapper: Mapper<GalleryItemDetailApiResult, PhotoItemUiModel>
 ) : PhotosUseCase {
 
     override suspend fun getPhotos(page: Int): ActionResult<PhotosState> {

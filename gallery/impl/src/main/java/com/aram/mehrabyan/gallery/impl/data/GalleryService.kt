@@ -14,6 +14,12 @@ internal interface GalleryService {
         @Query("per_page") perPage: Int = PER_PAGE_LIMIT
     ): Response<GalleryContentApiResult>
 
+    @GET("api/")
+    suspend fun getPhotoById(
+        @Query("key") key: String,
+        @Query("id") id: Long
+    ): Response<GalleryContentApiResult>
+
     companion object {
         private const val PER_PAGE_LIMIT = 30
     }
