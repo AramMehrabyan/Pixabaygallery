@@ -18,7 +18,7 @@ import kotlinx.coroutines.flow.onEach
 import org.koin.android.ext.android.get
 
 internal open class AuthUiBinder(
-    protected val viewLifecycleOwner: LifecycleOwner
+    private val viewLifecycleOwner: LifecycleOwner
 ) {
 
     protected fun observeAuthAction(viewModel: AuthViewModel, fragment: Fragment) {
