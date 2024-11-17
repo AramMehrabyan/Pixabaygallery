@@ -49,8 +49,4 @@ dependencies {
     implementation(project(":connector"))
     implementation(project(":auth:auth-api"))
     implementation(project(":gallery:api"))
-
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
 }

@@ -30,8 +30,4 @@ dependencies {
     implementation(libs.kotlin.coroutines.core)
     implementation(libs.glide)
     implementation(libs.glide.annotation.processor)
-
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
 }
