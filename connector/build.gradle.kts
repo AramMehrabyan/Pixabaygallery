@@ -24,6 +24,7 @@ dependencies {
     implementation(libs.koin.core)
 
     implementation(project(":network"))
+    implementation(project(":utils"))
     implementation(project(":auth:auth-impl"))
     implementation(project(":gallery:impl"))
 

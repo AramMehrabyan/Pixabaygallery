@@ -39,6 +39,7 @@ dependencies {
 
     implementation(project(":gallery:api"))
     implementation(project(":network"))
+    implementation(project(":utils"))
 
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)

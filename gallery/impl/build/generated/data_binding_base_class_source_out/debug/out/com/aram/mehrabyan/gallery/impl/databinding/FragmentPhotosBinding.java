@@ -4,10 +4,13 @@ package com.aram.mehrabyan.gallery.impl.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+import android.widget.FrameLayout;
+import android.widget.ProgressBar;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.Toolbar;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.aram.mehrabyan.gallery.impl.R;
@@ -20,11 +23,25 @@ public final class FragmentPhotosBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView tvTestInfo;
+  public final FrameLayout bottomProgress;
 
-  private FragmentPhotosBinding(@NonNull ConstraintLayout rootView, @NonNull TextView tvTestInfo) {
+  @NonNull
+  public final ProgressBar centerProgress;
+
+  @NonNull
+  public final RecyclerView rvPhotos;
+
+  @NonNull
+  public final Toolbar toolbar;
+
+  private FragmentPhotosBinding(@NonNull ConstraintLayout rootView,
+      @NonNull FrameLayout bottomProgress, @NonNull ProgressBar centerProgress,
+      @NonNull RecyclerView rvPhotos, @NonNull Toolbar toolbar) {
     this.rootView = rootView;
-    this.tvTestInfo = tvTestInfo;
+    this.bottomProgress = bottomProgress;
+    this.centerProgress = centerProgress;
+    this.rvPhotos = rvPhotos;
+    this.toolbar = toolbar;
   }
 
   @Override
@@ -54,13 +71,32 @@ public final class FragmentPhotosBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.tv_test_info;
-      TextView tvTestInfo = ViewBindings.findChildViewById(rootView, id);
-      if (tvTestInfo == null) {
+      id = R.id.bottom_progress;
+      FrameLayout bottomProgress = ViewBindings.findChildViewById(rootView, id);
+      if (bottomProgress == null) {
         break missingId;
       }
 
-      return new FragmentPhotosBinding((ConstraintLayout) rootView, tvTestInfo);
+      id = R.id.center_progress;
+      ProgressBar centerProgress = ViewBindings.findChildViewById(rootView, id);
+      if (centerProgress == null) {
+        break missingId;
+      }
+
+      id = R.id.rv_photos;
+      RecyclerView rvPhotos = ViewBindings.findChildViewById(rootView, id);
+      if (rvPhotos == null) {
+        break missingId;
+      }
+
+      id = R.id.toolbar;
+      Toolbar toolbar = ViewBindings.findChildViewById(rootView, id);
+      if (toolbar == null) {
+        break missingId;
+      }
+
+      return new FragmentPhotosBinding((ConstraintLayout) rootView, bottomProgress, centerProgress,
+          rvPhotos, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

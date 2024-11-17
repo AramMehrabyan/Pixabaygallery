@@ -7,6 +7,15 @@ android {
     namespace = "com.aram.mehrabyan.network"
     compileSdk = 34
 
+    defaultConfig {
+        buildFeatures.buildConfig = true
+
+        buildConfigField(
+            type = "String",
+            name = "API_KEY",
+            value = "\"47117783-c7ad79934807599452c45f289\""
+        )
+    }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
