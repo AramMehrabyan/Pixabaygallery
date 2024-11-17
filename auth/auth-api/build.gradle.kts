@@ -7,6 +7,10 @@ android {
     namespace = "com.aram.mehrabyan.authapi"
     compileSdk = 34
 
+    defaultConfig {
+        minSdk = 24
+    }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
@@ -14,8 +18,4 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
-}
-
-dependencies {
-    implementation(libs.androidx.core.ktx)
 }

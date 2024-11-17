@@ -2,13 +2,18 @@
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.aram.mehrabyan.authimpl" >
 4
-5    <uses-sdk android:minSdkVersion="1" />
+5    <uses-sdk android:minSdkVersion="24" />
 6
 7    <application>
-7-->/Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/auth/auth-impl/src/main/AndroidManifest.xml:3:5-5:19
-8        <activity android:name="com.aram.mehrabyan.authimpl.AuthenticationActivity" />
-8-->/Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/auth/auth-impl/src/main/AndroidManifest.xml:4:9-86
-8-->/Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/auth/auth-impl/src/main/AndroidManifest.xml:4:19-84
-9    </application>
-10
-11</manifest>
+7-->/Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/auth/auth-impl/src/main/AndroidManifest.xml:4:5-9:19
+8        <activity
+8-->/Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/auth/auth-impl/src/main/AndroidManifest.xml:5:9-8:66
+9            android:name="com.aram.mehrabyan.authimpl.AuthenticationActivity"
+9-->/Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/auth/auth-impl/src/main/AndroidManifest.xml:6:13-78
+10            android:screenOrientation="portrait"
+10-->/Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/auth/auth-impl/src/main/AndroidManifest.xml:7:13-49
+11            android:theme="@style/Theme.AppCompat.NoActionBar" />
+11-->/Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/auth/auth-impl/src/main/AndroidManifest.xml:8:13-63
+12    </application>
+13
+14</manifest>

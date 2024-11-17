@@ -2,10 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.aram.mehrabyan.authimpl" >
 
-    <uses-sdk android:minSdkVersion="1" />
+    <uses-sdk android:minSdkVersion="24" />
 
     <application>
-        <activity android:name="com.aram.mehrabyan.authimpl.AuthenticationActivity" />
+        <activity
+            android:name="com.aram.mehrabyan.authimpl.AuthenticationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
     </application>
 
 </manifest>

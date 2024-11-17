@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">auth-impl</string>
+    <string name="not_valid_email_info">Email is not valid</string>
+    <string name="short_password_info">Password is too short</string>
+    <string name="long_password_info">Password is too long</string>
+
+    <string name="email_hint">Enter your email</string>
+    <string name="password_hint">Enter your password</string>
+
+    <string name="sign_in">Sign in</string>
+    <string name="register">Register</string>
+    <string name="error_message">Something went wrong!</string>
 </resources>

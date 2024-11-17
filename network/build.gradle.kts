@@ -8,6 +8,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
+        minSdk = 24
         buildFeatures.buildConfig = true
 
         buildConfigField(

@@ -1,17 +1,21 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/auth/auth-impl/src/main/AndroidManifest.xml:2:1-6:12
-INJECTED from /Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/auth/auth-impl/src/main/AndroidManifest.xml:2:1-6:12
+ADDED from /Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/auth/auth-impl/src/main/AndroidManifest.xml:2:1-10:12
+INJECTED from /Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/auth/auth-impl/src/main/AndroidManifest.xml:2:1-10:12
 	package
 		INJECTED from /Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/auth/auth-impl/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/auth/auth-impl/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/auth/auth-impl/src/main/AndroidManifest.xml:3:5-5:19
+ADDED from /Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/auth/auth-impl/src/main/AndroidManifest.xml:4:5-9:19
 activity#com.aram.mehrabyan.authimpl.AuthenticationActivity
-ADDED from /Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/auth/auth-impl/src/main/AndroidManifest.xml:4:9-86
+ADDED from /Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/auth/auth-impl/src/main/AndroidManifest.xml:5:9-8:66
+	android:screenOrientation
+		ADDED from /Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/auth/auth-impl/src/main/AndroidManifest.xml:7:13-49
+	android:theme
+		ADDED from /Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/auth/auth-impl/src/main/AndroidManifest.xml:8:13-63
 	android:name
-		ADDED from /Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/auth/auth-impl/src/main/AndroidManifest.xml:4:19-84
+		ADDED from /Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/auth/auth-impl/src/main/AndroidManifest.xml:6:13-78
 uses-sdk
 INJECTED from /Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/auth/auth-impl/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/arammehrabyan/AndroidStudioProjects/PixabayGalleryProject/auth/auth-impl/src/main/AndroidManifest.xml
